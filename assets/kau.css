@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.top{       /*nav bar maib class */
+    position: relative;
+    background-color: rgba(23, 53, 151, 0.979);    
+    height: 100px;
+    background-size: cover;
+    background-position: center; 
+
+}
+
+.top ul{     /*box containing nav menu */
+    position:absolute;
+    top: 40px;
+    bottom: 30px;
+    right: 0px;
+}
+
+.nav-menu {   /*nav menu containng Home, Blogs, Gallery, About Us*/
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+}
+
+.nav-menu li{  /*nav menu elements*/
+    display: inline-block;
+}
+
+.nav-menu li a{
+    color: rgb(241, 241, 241);
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.nav-menu li a:hover{
+    border: 2px solid rgb(231, 231, 231);
+    border-radius: 90px;
+    background-color: rgb(5, 5, 5);
+    cursor: pointer;
+}
+
+img{   /* all images in website*/
+    border:2px;
+    border-radius: 20%;
+    padding: 5px 10px;
+}
+
+@media (max-width: 768px) { /*Below 769px it will work*/
+    .top {
+       padding: 15px 0;
+    }
+    .nav-menu li{
+        display:block;
+    }
+    .top{
+        height: 160px;
+    }
+    }
+  }
+
+  /* mobile nav */
+  
+  .class1 img{
+    margin-top: 2px;
+    margin-left: 2px;
+    display: inline-block;
+}
+p{
+    text-align: center;
+    /* text-transform: uppercase; */
+    font-family: Orelega One, cursive;
+    
+}
+#spider {
+    color: rgb(241, 241, 241);
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#spider:hover {
+    display: none;
+}

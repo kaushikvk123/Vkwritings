@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="./assets/kau.css">
+    <style>
+        /* @import url(./assets/kau.css); */
+        h1 {
+            text-align: center;
+            width: 100%;
+            height: 10px;
+            margin-bottom: 50px;
+            padding-top: 10px;
+            color: rgb(10, 14, 231);
+        }
+
+        .poetry {
+            box-sizing: border-box;
+            background-color: rgba(143, 241, 104, 0.815);
+        }
+
+        .poem {
+            display: inline-block;
+            border: 2px solid rgb(231, 62, 231);
+            box-shadow: 2px 2px 1px 1px rgb(175, 164, 164);
+            margin: 2px;
+        }
+
+        .poem img:hover {
+            display: inline-block;
+            border: 4px solid rgb(209, 22, 22);
+            box-shadow: 2px 2px 1px 1px rgba(32, 30, 30, 0.932);
+            margin: 2px;
+            padding: 3px;
+            cursor: pointer;
+        }
+
+        hr {
+            height: 5px;
+            color: rgb(28, 230, 38);
+        }
+
+        .heading {
+            background-color: linen;
+            height: 60px;
+        }
+
+        footer {
+            font-family: cursive;
+            font-weight: 300;
+            font-size: 1.5rem;
+            padding-top: auto;
+            padding-bottom: auto;
+            text-align: center;
+            height: 40px;
+            margin-top: 10px;
+            background-color: mediumaquamarine;
+        }
+
+        #Register {
+            background-color: mediumaquamarine;
+            ;
+        }
+
+        #Register footer,
+        #Register form {
+            display: inline-block;
+        }
+
+        .btn {
+            width: 70px;
+            height: 1.5rem;
+            border: 2px solid rgb(104, 100, 100);
+            border-radius: 7px;
+            margin-left: 10px;
+        }
+
+        #btn1:hover {
+            background-color: cyan;
+            box-shadow: 2px 1.5px 1.2px gray;
+            cursor: pointer;
+        }
+
+        #btn2:hover {
+            background-color: rgb(214, 238, 157);
+            box-shadow: 2px 1.5px 1.2px rgb(226, 162, 162);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top">
+
+        <strong>
+            <a href="./Index.html"><img src="./assets/pics/vkpic1.webp" height="90px" alt="logo"></a>
+            <ul class="nav-menu">
+                <li id="spider"><a href="#">ISTE BITS</a></li>
+                <li><a href="./Index.html">Home</a></li>
+                <li><a href="./Blogs.html">Blogs</a></li>
+                <li><a href="./Gallery.html">Gallery</a></li>
+                <li><a href="./About Us.html">About Us</a></li>
+            </ul>
+        </strong>
+
+    </div>
+
+
+    <div class="heading">
+        <h1>My Poetry</h1>
+    </div>
+    <hr>
+    <div class="poetry">
+        <div class="poem"><img src="./assets/pics/vkwriting (1).webp" width="348px" height="400px"></div>
+        <div class="poem"><img src="./assets/pics/vkwriting (2).webp" width="348px" height="400px"></div>
+        <div class="poem"><img src="./assets/pics/vkwriting (3).webp" width="348px" height="400px"></div>
+        <div class="poem"><img src="./assets/pics/vkwriting (4).webp" width="348px" height="400px"></div>
+        <div class="poem"><img src="./assets/pics/vkwriting (5).webp" width="348px" height="400px"></div>
+        <div class="poem"><img src="./assets/pics/vkwriting (6).webp" width="348px" height="400px"></div>
+        <div class="poem"><img src="./assets/pics/vkwriting (7).webp" width="348px" height="400px"></div>
+        <div class="poem"><img src="./assets/pics/vkwriting (8).webp" width="348px" height="400px"></div>
+        <div class="poem"><img src="./assets/pics/vkwriting (9).webp" width="348px" height="400px"></div>
+        <div class="poem"><img src="./assets/pics/vkwriting (10).webp" width="348px" height="400px"></div>
+        <div class="poem"><img src="./assets/pics/vkwriting (11).webp" width="348px" height="400px"></div>
+        <div class="poem"><img src="./assets/pics/vkwriting (12).webp" width="348px" height="400px"></div>
+    </div>
+    <footer id="words" class="footer">Enjoyed reading my poetry?</footer>
+    <div id="Register" class="footer">
+        <footer>Register to my Website:-</footer>
+        <form action="./Registration Details.docx" autocomplete="on" method="GET">
+            <input type="text" placeholder="Name" name="q">
+            <input type="email" placeholder="e-mail" name="q">
+            <input type="text" placeholder="Mobile Number" minlength="10" maxlength="10" name="q">
+            <button class="btn" id="btn1" type="submit">Submit</button>
+            <button class="btn" id="btn2" type="reset" value="Reset">Reset</button>
+        </form>
+    </div>
+</body>
+
+</html>
